@@ -28,7 +28,7 @@ function getUsers(){
 				html += "<b>나이 : </b>"+list[i].age+"살<hr>"
 			}
 			*/
-			$.each(list, function(index, item){
+			$.each(list, function(index, item){//제이쿼리 for문
 				html += "<b>이름 : </b>"+item.name+"님<br>"
 				html += "<b>나이 : </b>"+item.age+"살<hr>"
 			})
